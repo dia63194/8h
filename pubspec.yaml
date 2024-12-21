@@ -1,0 +1,68 @@
+name: site_project
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0-27.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flick_video_player: ^0.9.0
+  appinio_video_player: ^1.2.2
+  chewie: ^1.8.5
+  simple_parallax: ^0.1.1
+  url_launcher: ^6.3.1
+  fastor_app_ui_widget: ^1.3.61
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^5.0.0
+  video_player: ^2.9.2
+  carousel_slider: ^5.0.0
+  parallax_image_ns: ^0.3.2
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/previu.png
+    - assets/images/te.png
+    - assets/video/video.mp4
+    - assets/images/control.jpg
+    - assets/images/int.jpg
+    - assets/images/mod.jpg
+    - assets/images/ai.jpg
+    - assets/images/bloc.png
+    - assets/images/platforma.png
+    - assets/images/media.png
+    - assets/images/bisnes.jpeg
+    - assets/images/ai.jpg
+    - assets/images/mob.png
+    - assets/images/photo_2024-12-11_12-10-33.jpg
+    - assets/images/microsoft.jpg
+    - assets/images/azure (1).png
+    - assets/images/android.png
+    - assets/images/amazon.png
+    - assets/images/meta.png
+    - assets/images/ios.png
+    - assets/images/oksana.jpg
+    - assets/images/lera.jpg
+    - assets/images/diana.jpg
+    - assets/images/logo.png
+
+    
+
+    
+  fonts:
+    - family: Jura
+      fonts:
+        - asset: assets/fonts/Jura.ttf
